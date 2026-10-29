@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45),
+                        rgba(0, 0, 0, 0.45)),
+        url("https://thumbs.dreamstime.com/b/warm-cup-hot-coffee-standing-wet-glass-surface-inside-cozy-cafe-rain-drops-window-background-horizontal-461645805.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+.navheads{
+    display: flex;
+    gap: 70px;
+}
+.sidenav{
+    display: flex;
+    gap: 30px;
+}
+.head{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
